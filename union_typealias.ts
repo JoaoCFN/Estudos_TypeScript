@@ -8,7 +8,7 @@
 */
 
 /* -------------------------------------------------------------- */
-type Uid = number | string
+type Uid = number | string | undefined
 
 function logDetails(uid: Uid, item: string){
     console.log(`A product with ${uid} has a title as ${item}`);
