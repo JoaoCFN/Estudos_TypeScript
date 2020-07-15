@@ -13,11 +13,7 @@ function useState() {
     return { getState: getState, setState: setState };
 }
 var newState = useState();
-// newState.setState(false);
-// console.log(newState.getState());
 newState.setState("salve");
-console.log(newState.getState());
-newState.setState(123);
 console.log(newState.getState());
 newState.setState("opa!");
 console.log(newState.getState());
