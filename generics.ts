@@ -30,13 +30,8 @@ function useState<S extends numOrString = string>() {
 }
 
 const newState = useState();
-// newState.setState(false);
-// console.log(newState.getState());
 
 newState.setState("salve");
-console.log(newState.getState());
-
-newState.setState(123);
 console.log(newState.getState());
 
 newState.setState("opa!");
